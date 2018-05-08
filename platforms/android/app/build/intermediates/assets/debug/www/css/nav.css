@@ -1,0 +1,313 @@
+/* Overall guide button, upperRight */
+.guideButton  {
+	display:none;
+}	
+
+
+/* Top Bar: Div */
+	.announcementButtonHolder {
+		width:100%;
+		background-color:#1E231F;
+		border-collapse:collapse;
+	
+}
+
+
+/* Fillers: Top bar fillers: Left, Center, Right: <td> */
+	.fillerData {
+		width:20%;
+	}
+	
+	.fillerRight {
+		text-align:right;
+	} 
+	
+	.fillerLeft{
+		text-align:left;
+	}
+
+	.topLogo { /* Small Logo on Top */
+		width:50px;
+	}
+
+	.centerData {
+		width:50%;
+		text-align:center;
+		color: #ffffff;
+	}
+	/* ####### */
+	
+
+/* Top bar table Layout: Table */
+	.topTable {
+		width:100%;	
+	}
+
+	.topTable tr{
+		width:100%;
+	}
+
+	.topTable td{
+		padding:5px;
+	}
+
+/* Main Holder of navigation */
+
+.navTable {
+	padding:0px;
+	border-collapse: collapse;
+    border-spacing: 0;
+	width:100%;
+}	
+
+/* General Table*/
+	th, td {
+		padding: 0;
+	}
+	
+	#nav_nameHolder{
+		font-size:11px;
+		font-family:'serratbold';
+	}
+	
+	#nav_idHolder{
+		font-size:14px;
+		font-family:'serratlight';
+	}
+	
+	.headerTableButton {
+		width:100%;
+		padding:10px;
+		
+	}
+	
+	#logout-icon {
+	 width:10%;	
+	}
+	
+	.headerButtonRight {
+		text-align:right;
+	
+	}
+	
+	.headerButtonLeft {
+		text-align:left;
+	}
+	
+	.headerButton {
+		background-color:transparent;
+		padding-left:0px;
+		border:none;
+		
+		width:100%;
+	    font-size:12px;
+		font-family:'serratregular';
+		color:#8C6A26;
+		text-align:left;
+	}
+	
+	.menuBtn {
+		width:50%;
+	}
+
+	/* Page Headers */
+		/* Shows/Hide Side Menu */
+	.toggle-button {
+		color:#ffffff;
+		border: none;
+		text-align: center;
+		text-decoration: none;
+		display: inline-block;
+		font-size: 40px;	
+		background-color: Transparent;
+		background-repeat:no-repeat;
+		cursor:pointer;
+		overflow: hidden;
+		outline:none;	
+	 }
+	 
+	 .announceButton {
+		/*position:absolute;
+		left:0px;
+		top:0px;
+		z-index:99; */
+		
+		background-color:transparent;
+		background-repeat:no-repeat;
+		outline:none;
+		text-align:center;
+		padding:10px;
+
+		vertical-align: middle;
+		border: none;
+		
+	}
+	
+	.announcementImg {
+	width:30px;
+}
+		
+		/* Header Label */
+		.headerContainer {
+
+			height:100%;
+			
+			
+		}
+			.topbarHolder {
+				background-color:#222222;
+				position:sticky;
+				top:0px;
+				left:0px;
+				z-index:50;
+			/*	-webkit-box-shadow: 0px -3px 8px 6px rgba(0,0,0,0.58);
+				-moz-box-shadow: 0px -3px 8px 6px rgba(0,0,0,0.58);
+				box-shadow: 0px -3px 8px 6px rgba(0,0,0,0.58); */
+			}
+					
+			#headerLabel {
+				font-size: 20px;			
+				color:#FDC601;
+			}
+	
+	/* Alternative: Fixed# */
+	
+	.header3 {
+				background-color:#222222;
+
+			}
+	.header2 {
+		position:sticky;
+		top:0px;
+		left:0px;
+		/*-webkit-box-shadow: 0px -3px 8px 6px rgba(0,0,0,0.58);
+				-moz-box-shadow: 0px -3px 8px 6px rgba(0,0,0,0.58);
+				box-shadow: 0px -3px 8px 6px rgba(0,0,0,0.58);*/
+		}
+	/* ##################### */
+
+
+	/* Main Navigation Buttons */
+	.navHeader {
+		background:#ffffff;
+		width:100%;
+		overflow:hidden;
+	}
+	
+	.navButton
+	{
+		border: 0;
+		background: none;
+		box-shadow: none;
+		border-radius: 0px;
+		width:100%;
+		padding-left:20px;
+		font-size:17px;
+
+		color:#ffffff;
+		text-align:left;
+		 
+		margin:0 auto;
+		display:block;
+	}
+	
+	.navLabel{
+		font-size:12px;
+		color:#eaac18;
+	}
+	
+	.navSelectionRow {
+		margin-top:10px;
+	}
+
+	/* to be toggled */
+	.subTable {
+		width:100%;
+		padding:0px;
+		border-collapse: collapse;
+		border-spacing: 0;
+		
+	}
+
+	.topBar-Nav{
+		width:100%;
+	}
+	
+	.topBar-fillerRight{
+		width:20%;
+		text-align:right;
+	}
+	.topBar-fillerLeft{
+		width:20%;
+	}
+	
+	.topBar-center {
+		text-align:center;
+	}
+	
+	.subTableHead {
+		
+		height:100%;
+		width:100%;
+		overflow:hidden;
+		
+	}
+
+	/* Inside subTalbe */
+	/*sub Buttons */
+	.subButton
+	{
+		width:100%;
+		border: 0;
+		background: none;
+		box-shadow: none;
+		border-radius: 0px;
+		font-size:10px;
+		background-color:#dedede;
+		color:#222222;
+	}
+
+
+     .slideout-menu {
+        position: fixed;
+        left: 0;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        z-index: 0;
+        width: 256px;
+        overflow-y: scroll;
+        -webkit-overflow-scrolling: touch;
+        display: none;
+		padding:0px;
+		background-color:#222222;
+     }
+
+     .slideout-panel {
+        position: relative;
+        z-index: 1;
+        will-change: transform;
+		
+     }
+
+     .slideout-open,
+     .slideout-open body,
+     .slideout-open .slideout-panel {
+        overflow: hidden;
+     }
+
+      .slideout-open .slideout-menu {
+        display: block;
+      }
+	  
+	
+		.icon {
+			width:25px;
+		}
+		.vertical {
+			width:1px;
+			height:100%;
+		}
+
+
+	

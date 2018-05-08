@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+        <title>Admission - Login</title>
+		<link rel="stylesheet" type="text/css" href="css/globalStyle.css"  charset="utf-8" />
+		<link rel="stylesheet" type="text/css" href="css/nav.css"  charset="utf-8" />
+		<script src="js/jquery.js"></script>
+		<script src="js/slideout.min.js"></script>
+		<script type="text/javascript" src="js/global.js"></script>
+		<script type="text/javascript" src="js/ftp.js"></script>
+	</head>
+    <body>
+	 <div class="app">
+		<!--## Top Bar Holder-->
+		<center>
+			<div class="announcementButtonHolder">
+				<table class="topTable">
+					<tr>
+						<!-- Left Filler -->
+						<td class="fillerData fillerLeft">
+							<button class="announceButton" onclick="app.gotoPage('Announcement.html')">
+								<img id="announcementImgLeft" class="announcementImg" src="img/megaphone.png"/>
+							</button>
+						</td>
+						<!-- Center Filler: Logo -->
+						<td class="centerData">
+							<img class="topLogo" src="img/logoTop.png"/>
+						</td>
+						
+						<!-- Right Filler: Announcement Button -->
+						<td class="fillerData fillerRight">
+							<button class="announceButton" onclick="app.gotoPage('selector.html')">
+								<img class="announcementImg" src="img/icon_info.png"/>
+							</button>
+						</td>
+					</tr>
+				</table>
+			</div>
+		</center>
+		<!--################-->
+		
+		<center>
+		<br/><br/><br/>
+		<table class="indexTables">
+			<tr> <td class="indexTables-Header firstRow"> NEW APPLICANT </td> </tr>
+			<tr> <td class="indexTables-Rows"> 
+			Sign up if you do not have a reference number 	<br/><br/>			
+			<button onclick="globals.gotoPage('upload.html')" class="generalButton">REGISTER</button>
+			</td> </tr>
+		</table>
+		<br/>
+		<table class="indexTables">
+			<tr> <td class="indexTables-Header"> USER LOGIN </td> </tr> 
+			<tr> 
+			<td class="indexTables-Rows firstRow"> 
+				<input type="text" id="referenceInput" class="generalInput" placeholder="Enter reference number e.g. 2018001611" />
+				<br/><br/>
+				<input type="text" id="surnameInput" class="generalInput"  placeholder="Enter your Surname" /> 
+				<br/><br/>
+				<button onclick="app.onLogin()" class="generalButton">LOGIN</button> 
+			</td>
+			</tr>
+		</table>
+	
+	
+		</center>
+		
+		
+			<br/>
+			<br/>
+			<br/>
+			
+		<div class="footer">
+			<center> 
+				<p>Copyright © 2018 University of Santo Tomas. www.ust.edu.ph.<br/>Powered by Santo Tomas e-Service Providers</p> 
+			</center>
+		</div>
+		
+    </div>
+	
+
+		
+		<!--###########################-->
+        <script type="text/javascript" src="cordova.js"></script>
+		<script type="text/javascript" src="js/index.js"></script>
+		<script type="text/javascript" src="js/global.js"></script>
+		<script type="text/javascript" src="js/ftp.js"></script>
+		<script type="text/javascript">
+			app.initialize();
+		</script>
+		<link rel="stylesheet" type="text/css" href="css/globalStyle.css"  charset="utf-8" />
+		
+    </body>
+</html>

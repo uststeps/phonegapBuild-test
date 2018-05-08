@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "520123709331",
+    "firebase_url": "https://myuste-studentportal.firebaseio.com",
+    "project_id": "myuste-studentportal",
+    "storage_bucket": "myuste-studentportal.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:520123709331:android:b92f731c9f6d7ef6",
+        "android_client_info": {
+          "package_name": "com.steps.mobile.adms"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "520123709331-2chlvo9otoclem4d03n42e94u1dqa41p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDAXCH11JSXN0m_gtwxdM2SuxoB7PNPIJo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

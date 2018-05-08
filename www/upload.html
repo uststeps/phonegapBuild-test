@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+        <title>Blank App</title>
+		<link rel="stylesheet" type="text/css" href="css/globalStyle.css"  charset="utf-8" />
+		<link rel="stylesheet" type="text/css" href="css/upload.css"  charset="utf-8" />
+		<script src="js/jquery.js"></script>
+		
+	</head>
+    <body>
+
+	<center>
+	
+		
+		<div id="formHolder">
+		<form>
+
+			<input class="generalButton uploadButton" type="button" value="ADD" onclick="app.getURI()" />
+			<input class="generalButton uploadButton" type="button" value="UPLOAD" onclick="app.onUploadSubmit()" /><br/>
+			<input class="generalButton uploadButton" type="button" value="CLEAR" onclick="app.onClear()" />
+		</form>
+		</div>
+		<div id="toUploadGrid">
+
+		</div>
+		<span class="spanNote">
+			Tap on an image to remove it.
+		</span>
+	</center>
+	
+       <script type="text/javascript" src="cordova.js"></script>
+	   <script type="text/javascript" src="js/upload.js"></script>
+	   <script type="text/javascript" src="js/ftp.js"></script>
+	
+		<script type="text/javascript">
+			app.initialize();
+
+		</script>
+    </body>
+</html>

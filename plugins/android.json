@@ -1,0 +1,35 @@
+{
+  "prepare_queue": {
+    "installed": [],
+    "uninstalled": []
+  },
+  "config_munge": {
+    "files": {}
+  },
+  "installed_plugins": {
+    "cordova-plugin-camera": {
+      "PACKAGE_NAME": "com.steps.mobile.adms"
+    },
+    "cordova-plugin-dialogs": {
+      "PACKAGE_NAME": "com.steps.mobile.adms"
+    },
+    "cordova-plugin-enable-multidex": {
+      "PACKAGE_NAME": "com.steps.mobile.adms"
+    },
+    "cordova-plugin-file-transfer": {
+      "PACKAGE_NAME": "com.steps.mobile.adms"
+    },
+    "cordova-plugin-ftp": {
+      "PACKAGE_NAME": "com.steps.mobile.adms"
+    },
+    "phonegap-plugin-push": {
+      "FCM_VERSION": "11.6.2",
+      "PACKAGE_NAME": "com.steps.mobile.adms"
+    }
+  },
+  "dependent_plugins": {
+    "cordova-plugin-file": {
+      "PACKAGE_NAME": "com.steps.mobile.adms"
+    }
+  }
+}

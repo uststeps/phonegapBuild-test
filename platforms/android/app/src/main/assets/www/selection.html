@@ -1,0 +1,77 @@
+a<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+        <title>Admission - Register: Step 1</title>
+		<link rel="stylesheet" type="text/css" href="css/globalStyle.css"  charset="utf-8" />
+		<link rel="stylesheet" type="text/css" href="css/selection.css"  charset="utf-8" />
+		<link rel="stylesheet" type="text/css" href="css/nav.css"  charset="utf-8" />
+		<script src="js/jquery.js"></script>
+		<script src="js/slideout.min.js"></script>
+		<script type="text/javascript" src="js/global.js"></script>
+	</head>
+    <body>
+	 <div class="app">
+	<!--## Top Bar Holder-->
+		<center>
+			<div class="announcementButtonHolder">
+				<table class="topTable">
+					<tr>
+						<!-- Left Filler -->
+						<td class="fillerData fillerLeft">
+							<!-- <button class="announceButton" onclick="app.gotoPage('Announcement.html')">
+								<img id="announcementImgLeft" class="announcementImg" src="img/megaphone.png"/>
+							</button> -->
+						</td>
+						<!-- Center Filler: Logo -->
+						<td class="centerData">
+							<!-- <img class="topLogo" src="img/logoTop.png"/>-->
+							STEP 1: I'm enrolling for 
+						</td>
+						
+						<!-- Right Filler: Announcement Button -->
+						<td class="fillerData fillerRight">
+							<!-- <button class="announceButton" onclick="app.gotoPage('selector.html')">
+								<img class="announcementImg" src="img/icon_info.png"/>
+							</button> --> 
+						</td>
+					</tr>
+				</table>
+			</div>
+		</center>
+		<!--################-->
+		
+		<center>
+			<table id="selectionTable">
+				<tr> 
+					<td class="smallCell"><input id="level1" type="radio" name="levelSelection" value="name1"/></td><td class="rightCell">COLLEGE (Incoming First Year College)</td>
+				</tr>
+				<tr> 	
+					<td class="smallCell"><input id="level2" type="radio" name="levelSelection" value="name2"/></td><td class="rightCell">SENIOR HIGH SCHOOL</td>
+					
+				</tr>
+				<tr>
+					<td class="smallCell"><input id="level3" type="radio" name="levelSelection" value="name3"/></td><td class="rightCell">JUNIOR HIGH SCHOOL</td>
+				</tr>
+			</table>
+			<br/>
+			<button class="generalButton submitSelection" onclick="globals.gotoPage('index.html')">Cancel</button> <br/>
+			<button class="generalButton submitSelection" onclick="app.onLevelSelect()">Next </button>
+		</center>
+
+    </div>
+	
+
+		
+		<!--###########################-->
+        <script type="text/javascript" src="cordova.js"></script>
+		<script type="text/javascript" src="js/selection.js"></script>
+		<script type="text/javascript">
+			//window.location = "SidemenuTemplate.html";
+			app.initialize();
+		</script>
+		<link rel="stylesheet" type="text/css" href="css/globalStyle.css"  charset="utf-8" />
+		
+    </body>
+</html>

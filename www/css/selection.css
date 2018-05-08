@@ -1,0 +1,20 @@
+#selectionTable 
+{
+	width:90%;
+	border-collapse: collapse;
+	margin-top: 50px;
+}
+
+#selectionTable td {
+	padding:10px;
+}
+
+.smallCell {
+	text-align:center;
+	width:10%;
+	background-color:#222222;
+}
+
+.rightCell {
+	text-align: left;
+}
